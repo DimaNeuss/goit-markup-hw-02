@@ -1,0 +1,45 @@
+body {
+  background-color: #fff;
+  color: #757575;
+}
+
+.list {
+  list-style: none;
+}
+/* цвет основного текста #000000 */
+/*
+
+/* Вторичный цвет текста rgba(0,0,0.8);
+    /*
+
+/*белый #FFFFF*/
+/* актент 18A0FB*/
+
+/* вторичный цвет фона #F5F4FA;*/
+/* доп цвет заголовка #2F303A*/
+.logo {
+  color: #2196f3;
+}
+/* sete nav*/
+.site-nav .link {
+  color: #000;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Hero*/
+.hero-title {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+/*Section*/
+.section-title {
+  color: #212121;
+}
+
+h2:h3 {
+  color: #212121;
+}
