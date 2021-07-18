@@ -24,6 +24,9 @@ body {
 .site-nav .link {
   color: #000;
 }
+.site-nav .link.current {
+  color: #2196f3;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
@@ -42,4 +45,14 @@ body {
 
 h2:h3 {
   color: #212121;
+}
+
+/*Button*/
+.button.primary {
+  color: #ffff;
+  background-color: #2196f3;
+}
+.button.filter {
+  color: #000;
+  background-color: #f5f4fa;
 }
