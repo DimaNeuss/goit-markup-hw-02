@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  color: #757575;
+  color: color: #000;
 }
 
 .list {
@@ -55,4 +55,7 @@ h2:h3 {
 .button.filter {
   color: #000;
   background-color: #f5f4fa;
+}
+.text {
+  color: #757575;
 }
