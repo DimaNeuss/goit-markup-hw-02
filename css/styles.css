@@ -9,17 +9,26 @@
 
 /* вторичный цвет фона #F5F4FA;*/
 /* доп цвет заголовка #2F303A*/
+:root {
+  --primery-texte-collor: #757575;
+  --second-color: #212121;
+  --accent-color: #2196f3;
+  --whitw-color-texte: #fff;
+  --text-color: #000;
+}
 .body {
   background-color: #fff;
-  color: #000;
+  color: var(--text-color);
   font-family: Roboto, sans-serif;
+  font-family: Raleway, sans-serif;
   cursor: pointer;
 }
 .list {
   list-style: none;
 }
+/*логотип начало*/
 .logo {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -27,7 +36,7 @@
   text-decoration: none;
 }
 .logo-header {
-  color: #000;
+  color: var(--text-color);
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -37,14 +46,14 @@
 
 /* sete nav*/
 .site-nav .link {
-  color: #000;
+  color: var(--text-color);
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
 }
 .contacts .link {
-  color: #757575;
+  color: var(--primery-texte-collor);
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -52,14 +61,14 @@
 }
 .contacts .link:hover,
 .contacts .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav .link.current {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .section-team {
@@ -74,7 +83,7 @@
   line-height: 42px;
   text-align: center;
 }
-.name-team {
+.section-name-team {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -82,12 +91,12 @@
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--second-color);
 }
 /*Button*/
 .button.primary {
-  color: #ffff;
-  background-color: #2196f3;
+  color: var(--whitw-color-texte);
+  background-color: var(--accent-color);
   font-family: Roboto;
   font-weight: 700;
   font-size: 14px;
@@ -100,18 +109,18 @@
 
 .button.filte {
   color: #000;
-  background-color: #f5f4fa;
+  background-color: var(--whitw-color-texte);
   font-family: Roboto;
 }
 .button.filte:hover,
 .button.filte:focus {
-  color: #f5f4fa;
+  color: var(--whitw-color-texte);
   background-color: #2196f3;
   font-family: Roboto;
 }
 
 .text {
-  color: #757575;
+  color: var(--primery-texte-collor);
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -123,7 +132,7 @@
 
 /*Section*/
 .section-title {
-  color: #212121;
+  color: var(--second-color);
   font-family: Roboto;
   font-weight: bold;
   font-size: 14px;
@@ -135,7 +144,7 @@
   background-color: #2f303a;
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--whitw-color-texte);
   background-color: #2f303a;
   font-family: Roboto;
   font-weight: 900;
@@ -167,7 +176,7 @@
 }
 
 .text-portfolio {
-  color: #757575;
+  color: var(--primery-texte-collor);
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.8;
@@ -183,7 +192,7 @@
 }
 
 .logo-footer {
-  color: #fff;
+  color: var(--whitw-color-texte);
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -200,7 +209,7 @@
 }
 .link {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--whitw-color-texte);
 }
 .footer {
   background: #2f303a;
