@@ -103,7 +103,10 @@ body {
   font-size: 14px;
   line-height: 1.8;
 }
-
+.contacts-footer .link:hover,
+.contacts-footer .link:focus {
+  color: var(--accent-color);
+}
 /* Hero*/
 .hero {
   background-color: var(--background-color);
@@ -133,7 +136,7 @@ body {
 }
 .secondary-button:hover,
 .secondary-button:focus {
-  color: var(--white-color-text);
+  color: var(--whitе-color-text);
   background-color: var(--accent-color);
 }
 
