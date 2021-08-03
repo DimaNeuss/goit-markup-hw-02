@@ -19,7 +19,6 @@
   --text-color: #000;
   --background-color: #2f303a;
   --secondary-background-color: #f5f4fa;
-  --contacts-footer-color: rgba(255, 255, 255, 0.6);
 }
 /*общие*/
 body {
@@ -32,7 +31,6 @@ body {
 }
 .link {
   text-decoration: none;
-  color: var(--white-color-text);
 }
 .footer {
   background: var(--background-color);
@@ -61,23 +59,23 @@ body {
 }
 
 /* sete nav*/
-.site-nav .link {
+.nav-link {
   color: var(--text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
 }
 
-.site-nav .link.current {
+.current {
   color: var(--accent-color);
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
 
 /*коннтакты*/
-.contacts .link {
+.contacts-link {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -89,22 +87,22 @@ body {
   color: var(--accent-color);
 }
 /*footer*/
-.contacts-footer {
+.contacts-footer-link {
   background: var(--background-color);
-  color: var(--contacts-footer-color);
-  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-style: normal;
   line-height: 1.8;
 }
-.address {
+.address-link {
   color: var(--whitе-color-text);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.8;
+  font-style: normal;
 }
-.contacts-footer .link:hover,
-.contacts-footer .link:focus {
+.contacts-footer-link:hover,
+.contacts-footer-link:focus {
   color: var(--accent-color);
 }
 /* Hero*/
